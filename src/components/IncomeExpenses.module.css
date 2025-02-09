@@ -1,0 +1,75 @@
+.incomeExpensesContainer {
+  margin-top: 10px;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+}
+
+.incomeExpensesContainer h3 {
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 12px 12px 0 0;
+  padding: 5px 15px 5px 15px;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+.incomeExpensesContainer ul {
+  height: 150px;
+  padding: 0 10px 0 10px;
+  list-style-type: none;
+  margin: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-weight: 350;
+  font-size: 15px;
+  overflow: scroll;
+}
+
+.incomeExpensesContainer ul::-webkit-scrollbar {
+  width: 5px;
+  height: 100%;
+  transition: 0.5s ease-in;
+}
+
+.incomeExpensesContainer ul::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 99px;
+}
+
+.incomeExpensesContainer ul::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 99px;
+  cursor: pointer;
+}
+
+.incomeExpensesContainer ul li {
+  background: white;
+  padding: 4px;
+  padding-left: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.incomeExpensesContainer ul li div {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.incomeExpensesContainer ul li span {
+  font-size: 18px;
+  color: crimson;
+  cursor: pointer;
+}
+
+.incomeListItem {
+  border-right: 10px solid limegreen;
+}
+
+.expenseListItem {
+  border-right: 10px solid rgb(205, 50, 50);
+}
